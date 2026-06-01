@@ -1,0 +1,24 @@
+# alpha: 0.8 # linear stiffness
+# beta: 1 # nonlinear stiffness
+# delta: 0.08 # damping
+# gamma: 0.2 # excitation amplitude
+# omega: 1.1 # excitation frequency
+# nrEvalPts: 1000 # number of evaluation points
+
+alpha: 7 # linear stiffness
+beta: 5 # nonlinear stiffness
+delta: 0.01 # damping
+gamma: 0.2 # excitation amplitude
+omega: 3 # excitation frequency
+nrEvalPts: 1000 # number of evaluation points
+
+x0: 0 # initial value of x
+v0: 17 # initial value of v
+t0: 0 # start time
+t_end_tr: 1500 # end time of transient process
+t_step_tr: 0.01 # time step of transient process
+t_end_ss: 100 # end time of steady state process
+t_step_ss: 0.1 # time step of steady state process
+fftMinVal: 0.001 # minimum value for FFT
+fftHighFreq: 500 # high frequency for FFT
+fftDist: 50 # distance of block for FFT

@@ -1,0 +1,24 @@
+### --- Font --- ###
+# Sizes
+axes.titlesize : 9
+axes.labelsize : 9
+xtick.labelsize : 9
+ytick.labelsize : 9
+legend.fontsize: 9
+figure.titlesize: 9
+
+# Type
+font.family : 'Nexus'
+font.serif : 'Nexus'
+font.size: 9
+text.usetex : True
+text.latex.preamble : \usepackage{amsmath} \usepackage{amsfonts}
+
+### --- Lines --- ###
+lines.linewidth : 1.5
+lines.markersize : 10
+
+### Figure
+savefig.transparent : False
+figure.figsize : 5.9, 3.94
+savefig.bbox : tight

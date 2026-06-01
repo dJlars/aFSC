@@ -1,0 +1,7 @@
+# Ignore all __pycache__ directories anywhere
+**/__pycache__/
+
+# Ignore all folders ending with Results/ anywhere (and their contents)
+**/*Results/
+
+*.pkl
