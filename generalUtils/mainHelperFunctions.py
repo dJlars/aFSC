@@ -46,6 +46,10 @@ def createSamples(saveStr: str,
     else:
         samples = np.sort(jPDF.sample(nrSamples))
 
+        directory = os.path.dirname(saveStr)
+        if directory and not os.path.exists(directory):
+            os.makedirs(directory, exist_ok=True)
+
         with open(saveStr, "wb") as f:
             dill.dump(samples, f)
     

@@ -24,7 +24,7 @@ def new_lj_1d(order, dist=cp.Uniform(-1, 1), old_knots=[]):
     """New Leja interpolation knots and weights in 1d."""
     knots, weights = cp.quadrature.leja(order, dist)
     knots = knots.flatten()
-    is_in = np.in1d(knots, old_knots, invert=True)
+    is_in = np.isin(knots, old_knots, invert=True)
     new_knots = knots[is_in]
     return new_knots, weights
 

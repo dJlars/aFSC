@@ -1,6 +1,7 @@
-chaospy==4.3.21
 ConfigArgParse==1.7.5
 dill==0.4.0
 matplotlib==3.10.9
 numpy==2.4.6
 scipy==1.17.1
+chaospy==4.3.21
+PyYAML==6.0.3
